@@ -1,8 +1,7 @@
 # TETRIS*
 
-#### Course Description: 
-Emphasis on advanced data structures, algorithms, and object-oriented design. Topics include linked data structures, recursion, algorithm analysis, interfaces, and inheritance.
+#### Tetris Game, using pygame library. Enjoy.
 
 #### 
 
-###### Spring 2023. 
+###### * Tetris is originally created by Alexey Pajitnov. This is just an open-source remake.
