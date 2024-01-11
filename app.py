@@ -83,18 +83,19 @@ def game_over():
     pygame.quit()
     quit()
 
-# Initialize game variables
+# Declaring colors:
+
 board = [[0 for _ in range(10)] for _ in range(20)]
 current_piece = new_piece()
 current_x, current_y = 3, 0
 colors = {
-    1: (255, 0, 0),   # Red
-    2: (0, 255, 0),   # Green
-    3: (0, 0, 255),   # Blue
-    4: (255, 255, 0), # Yellow
-    5: (255, 0, 255), # Purple
-    6: (0, 255, 255), # Cyan
-    7: (255, 165, 0)  # Orange
+    1: (255, 0, 0), 
+    2: (0, 255, 0),  
+    3: (0, 0, 255),  
+    4: (255, 255, 0), 
+    5: (255, 0, 255), 
+    6: (0, 255, 255), 
+    7: (255, 165, 0)  
 }
 clock = pygame.time.Clock()
 fall_time = 0
