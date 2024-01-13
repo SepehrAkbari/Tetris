@@ -1,4 +1,5 @@
-Column 1,Column 2,Column 3
-x, y, z
-a, b, c
-m, n, v
+Action, Detail
+
+Initialization, 'pygame.init(): Initializes the Pygame library. Defines constants such as SCREEN_WIDTH, SCREEN_HEIGHT, BLOCK_SIZE, WHITE, and BLACK.'
+y,n
+
