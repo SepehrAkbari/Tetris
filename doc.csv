@@ -1,6 +1,17 @@
 Action, Detail
 
-"Initialization", "pygame.init(): Initializes the Pygame library. 
-Defines constants such as SCREEN_WIDTH, SCREEN_HEIGHT, BLOCK_SIZE, WHITE, and BLACK."
+"Initialization", "pygame.init(): Initializes the Pygame library. | Defines constants such as SCREEN_WIDTH, SCREEN_HEIGHT, BLOCK_SIZE, WHITE, and BLACK."
 
-"x", "u"
+"Pygame Setup", "Creates a Pygame window with a title "TETRIS" and sets its dimensions. | Defines colors for different tetriminos using RGB values."
+
+"Tetriminos", "A list named tetriminos holds the different types of Tetris pieces, each represented as a 2D list of integers. | The integers in the list represent different types of blocks within a tetrimino."
+
+"Functions", "draw_block(x, y, color): Draws a single block on the screen at coordinates (x, y) with the specified color. | draw_board(board): Draws the entire game board based on the given 2D array board. |new_piece(): Returns a random tetrimino from the tetriminos list. | valid_position(board, piece, offset): Checks if placing a piece on the board at a given offset is a valid move. | merge_board(board, piece, offset): Merges a piece onto the game board at a specific offset. | remove_full_rows(board): Removes any full rows on the board and returns the number of rows removed. | game_over(): Displays "Game Over" on the screen and quits the game after a brief delay."
+
+"Game Initialization", "Initializes the game board (board) and other variables such as the current piece (current_piece), its position (current_x, current_y), colors, clock, fall time, score, and the game's running state."
+
+"Game Loop", "Enters a main game loop (while running:) that continues until the user quits. | Handles Pygame events, such as key presses for moving, rotating, and quitting the game. | Manages the falling of the current piece based on a set fall speed. | Updates the game state, including handling collisions, merging pieces onto the board, checking for full rows, and displaying the current state."
+
+"Drawing", "Clears the screen and redraws the current game state in each iteration of the game loop."
+
+"Quitting the Game", "Exits the Pygame loop and quits the game when the user closes the window."
