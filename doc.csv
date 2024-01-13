@@ -2,7 +2,7 @@ Action, Detail
 
 "Initialization", "pygame.init(): Initializes the Pygame library. | Defines constants such as SCREEN_WIDTH, SCREEN_HEIGHT, BLOCK_SIZE, WHITE, and BLACK."
 
-"Pygame Setup", "Creates a Pygame window with a title "TETRIS" and sets its dimensions. | Defines colors for different tetriminos using RGB values."
+"Pygame Setup", "Creates a Pygame window with a title 'TETRIS' and sets its dimensions. | Defines colors for different tetriminos using RGB values."
 
 "Tetriminos", "A list named tetriminos holds the different types of Tetris pieces, each represented as a 2D list of integers. | The integers in the list represent different types of blocks within a tetrimino."
 
