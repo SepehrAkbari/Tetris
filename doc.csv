@@ -1,3 +1,6 @@
 Action, Detail
 
-"x,c,v,", "lp"
+"Initialization", "pygame.init(): Initializes the Pygame library. 
+Defines constants such as SCREEN_WIDTH, SCREEN_HEIGHT, BLOCK_SIZE, WHITE, and BLACK."
+
+"x", "u"
